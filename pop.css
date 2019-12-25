@@ -1,0 +1,35 @@
+.delight {
+  max-height: 100%;
+  width: 100%;
+}
+.delight2 {
+  width:400px;
+  height:auto;
+}
+.size {margin:0;}
+.header{height:500px;}
+
+.intro{height: 800px;}
+.intro-title{text-align: center;}
+
+.intro-content{
+  display:flex;
+  align-items: center;
+  justify-content : center;
+}
+
+h2{
+    margin: 50px;
+}
+.intro-text{
+  text-align: center;
+  width:55%;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 1s all ease-in-out;
+}
+
+.intro-appear{
+  opacity:1;
+  transform : translateY(0px);
+}
